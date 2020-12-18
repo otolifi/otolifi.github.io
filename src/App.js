@@ -1,8 +1,7 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -12,7 +11,7 @@ import TDCCanvas from "./components/TDCCanvas";
 import TDCAbout from './components/TDCAbout';
 import TDCContact from './components/TDCContact';
 import TDCServices from './components/TDCServices';
-import WallNode from './models/Formwork';
+
 
 function App() {
   document.title = 'TridiCAD'
